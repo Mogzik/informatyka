@@ -6,14 +6,25 @@ void gotoxy(int x, int y );
 using namespace std;
 int main()
 {
+  gotoxy(16,4);
+  cout <<"^";
   gotoxy(15,5);
-   cout << "//";
-   gotoxy(16,5);
+   cout << "/";
+   gotoxy(17,5);
    cout << "\\";
-   gotoxy(17,6);
+    gotoxy(14,6);
+   cout << "/";
+   gotoxy(18,6);
    cout << "\\";
-   gotoxy(14,6);
-   cout << "//";
+   gotoxy(19,7);
+   cout << "\\";
+   gotoxy(13,7);
+   cout << "/";
+   gotoxy(15,8);
+   cout << "/";
+   gotoxy(17,8);
+   cout << "\\";
+
    
 }
 
