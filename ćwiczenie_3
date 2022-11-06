@@ -1,74 +1,131 @@
-#include <windows.h> 
-#include <iostream> 
-#include <stdlib.h> 
-using namespace std; 
-int main() 
-{ 
-system("chcp 1250");
-HANDLE hOut; 
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+------------------------------------------+"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY);
-cout << "!   kolor            !   numer koloru      !"  << endl << endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "!   wszyst kolory    !   ………..........…….  !"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "!   biały            !   15 oraz 7         !"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14| 
-FOREGROUND_INTENSITY); 
-cout << "!   żółty            !   14 oraz 6         !"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 13| 
-FOREGROUND_INTENSITY); 
-cout << "!   purpurowy        !   13 oraz 5         !"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
-  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12| 
-FOREGROUND_INTENSITY); 
-cout << "!   czerwony         !   12 oraz 4         !"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11| 
-FOREGROUND_INTENSITY); 
-cout << "!   jasnoniebieski   !   11 oraz 3         !"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10| 
-FOREGROUND_INTENSITY); 
-cout << "!   zielony          !   10 oraz 2         !"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9| 
-FOREGROUND_INTENSITY); 
-cout << "!   ciemnoniebieski  !   9 oraz 1          !"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 8| 
-FOREGROUND_INTENSITY); 
-cout << "!   szary            !   8 oraz 0          !"  <<endl <<endl;
- SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
-FOREGROUND_INTENSITY); 
-cout << "+--------------------!---------------------!"  <<endl <<endl;
-system("PAUSE"); 
-return 0; 
+#include <iostream>
+#include <conio.h>
+#include <windows.h>
+#include <cstdlib>
+void gotoxy(int x, int y );
+using namespace std;
+int main()
+{
+  gotoxy(100,4);
+  cout <<"*";
+  gotoxy(99,5);
+   cout << "/*\\";
+    gotoxy(98,6);
+   cout << "/0**\\";
+   gotoxy(97,7);
+   cout << "/**\\**\\";
+   gotoxy(102,7);
+   cout << "*";
+   gotoxy(98,7);
+   cout << "*";
+   
+   
+   gotoxy(99,8);
+   cout << "/*\\";
+   gotoxy(98,9);
+   cout << "/**0\\";
+   gotoxy(97,10);
+   cout << "/**/**\\";
+   gotoxy(96,11);
+   cout << "/**0****\\";
+   gotoxy(95,12);
+   cout << "/**/******\\";
+  
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   gotoxy(99,13);
+   cout << "/*\\";
+   gotoxy(98,14);
+   cout << "/0**\\";
+   gotoxy(97,15);
+   cout << "/**\\**\\";
+   gotoxy(96,16);
+   cout << "/****0**\\";
+   gotoxy(95,17);
+   cout << "/******\\**\\";
+   gotoxy(94,18);
+   cout << "/********0**\\";
+   gotoxy(93,19);
+   cout << "/**********\\**\\";
+   gotoxy(92,20);
+   cout << "/************0**\\";
+   gotoxy(91,21);
+   cout << "/**************\\**\\";
+   gotoxy(109,21);
+   cout << "\\";
+   gotoxy(97,21);
+   cout << "*";
+   gotoxy(103,21);
+   cout << "*";
+   gotoxy(96,21);
+   cout << "*";
+   gotoxy(104,21);
+   cout << "*";
+   gotoxy(95,21);
+   cout << "*";
+   gotoxy(105,21);
+   cout << "*";
+   gotoxy(94,21);
+   cout << "*";
+   gotoxy(106,21);
+   cout << "0";
+   gotoxy(93,21);
+   cout << "*";
+   gotoxy(107,21);
+   cout << "*";
+   gotoxy(92,21);
+   cout << "*";
+   gotoxy(108,21);
+   cout << "*";
+   
+   
+   
+   
+
+   
+   
+   
+   
+   
+   
+   gotoxy(98,21);
+   cout << "|***|";
+   gotoxy(98,22);
+   cout << "|***|";
+   gotoxy(98,23);
+   cout << "|***|";
+   gotoxy(98,24);
+   cout << "|***|";
+   gotoxy(99,24);
+   cout << "_";
+   gotoxy(101,24);
+   cout << "_";
+   gotoxy(100,24);
+   cout << "_";
+   
+   
+   
+   
+   
+
+   
 }
+
+void gotoxy( int x, int y ) 
+{
+ COORD coord;
+ coord.X = x; 
+ coord.Y = y; 
+ 
+ SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord );
+ }
