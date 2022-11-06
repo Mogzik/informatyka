@@ -12,51 +12,51 @@ int main()
   gotoxy(78,5);
    cout << "/   \\";
     gotoxy(76,6);
-   cout << "/   _   \\";
+   cout << "/       \\";
    gotoxy(74,7);
-   cout << "/   /   \\   \\";
+   cout << "/           \\";
     gotoxy(72,8);
-   cout << "/   /       \\   \\";
+   cout << "/               \\";
     gotoxy(70,9);
-   cout << "/   /           \\   \\";
+   cout << "/                   \\";
     gotoxy(68,10);
-   cout << "/   /  ___________  \\   \\";
+   cout << "/                       \\";
     gotoxy(66,11);
-   cout << "/   /   /|  0      |\\   \\   \\";
+   cout << "/                           \\";
   gotoxy(64,12);
-   cout << "/   /     |  ===      |     \\   \\";
+   cout << "/                               \\";
    gotoxy(62,13);
-   cout << "/   /       |###########|       \\   \\";
+   cout << "/                                   \\";
    gotoxy(60,14);
-   cout << "/   /         |###########|         \\   \\";
+   cout << "/                                       \\";
     gotoxy(58,15);
-   cout << "/   /                                   \\   \\";
+   cout << "/                                           \\";
    gotoxy(56,16);
-   cout << "/   /                                       \\   \\";
+   cout << "/                                               \\";
    gotoxy(54,17);
-   cout << "|   |                                           |   |";
+   cout << "|                                                   |";
     gotoxy(56,18);
-   cout << "\\   \\                                      /   /";
+   cout << "\\                                               /";
   gotoxy(58,19);
-   cout << "\\   \\                                   /   /";
+   cout << "\\                                           /";
   gotoxy(60,20);
-   cout << "\\   \\                               /   /";
+   cout << "\\                                       /";
   gotoxy(62,21);
-   cout << "\\   \\                           /   /";
+   cout << "\\                                   /";
    gotoxy(64,22);
-   cout << "\\   \\                       /   /";
+   cout << "\\                               /";
    gotoxy(66,23);
-   cout << "\\   \\                   /   /";
+   cout << "\\                           /";
    gotoxy(68,24);
-   cout << "\\   \\               /   /";
+   cout << "\\                       /";
    gotoxy(70,25);
-   cout << "\\   \\           /   /";
+   cout << "\\                   /";
    gotoxy(72,26);
-   cout << "\\   \\       /   /";
+   cout << "\\               /";
    gotoxy(74,27);
-   cout << "\\   \\   /   /";
+   cout << "\\           /";
    gotoxy(76,28);
-   cout << "\\   _   /";
+   cout << "\\       /";
    gotoxy(78,29);
    cout << "\\   /";
    gotoxy(80,30);
@@ -71,6 +71,18 @@ FOREGROUND_INTENSITY);
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ gotoxy(65,14);
+   cout << "#######";
+ gotoxy(74,13);
+   cout << "#===################";
+ gotoxy(67,13);
+   cout << "#######";
  gotoxy(79,7);
    cout << "###";
    gotoxy(77,8);
@@ -78,26 +90,31 @@ FOREGROUND_INTENSITY);
     gotoxy(75,9);
    cout << "###########";
    gotoxy(73,10);
-   cout << "##"; 
-   gotoxy(86,10);
-   cout << "##";
-   gotoxy(76,11);
-   cout << "##";
-   gotoxy(79,11);
-   cout << "######";
+   cout << "###############"; 
+   gotoxy(71,11);
+   cout << "####";
+   gotoxy(81,11);
+   cout << "#########";
+   gotoxy(74,12);
+   cout << "#";
+   gotoxy(70,12);
+   cout << "####";
    gotoxy(75,12);
-   cout << "##";
-   gotoxy(80,12);
-   cout << "######";
+   cout << "( )####";
+   gotoxy(82,12);
+   cout << "#########";
    
    
    
-   gotoxy(85,15);
-   cout << "#############";
+   
+   gotoxy(76,15);
+   cout << "#####";
+   gotoxy(82,15);
+   cout << "################";
    gotoxy(77,15);
-   cout << "#######";
+   cout << "##";
    gotoxy(63,15);
-   cout << "#############";
+   cout << "############";
    gotoxy(85,16);
    cout << "###############"; 
    gotoxy(80,16);
@@ -154,16 +171,45 @@ FOREGROUND_INTENSITY);
    cout << "#######";
    gotoxy(79,27);
    cout << "###";
+   gotoxy(84,14);
+   cout << "############";
 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+   
    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15| 
 FOREGROUND_INTENSITY);
-  gotoxy(76,15);
-   cout << "@"; 
-   gotoxy(84,15);
-   cout << "@"; 
-   
-   
-   
+  
+   gotoxy(74,15);
+   cout << "( )";
+   gotoxy(80,15);
+   cout << "( )";
+   gotoxy(74,14);
+   cout << "_________";
+   gotoxy(73,14);
+   cout << "|";
+   gotoxy(83,14);
+   cout << "|";
+   gotoxy(73,13);
+   cout << "|";
+   gotoxy(83,13);
+   cout << "|";
+   gotoxy(74,12);
+   cout << "/";
+   gotoxy(82,12);
+   cout << "\\";
+   gotoxy(75,11);
+   cout << "_______";
 
    
 }
