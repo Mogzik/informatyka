@@ -1,35 +1,4 @@
-#include <iostream>
-#include <conio.h>
-#include <windows.h>
-#include <cstdlib>
-void gotoxy(int x, int y );
-using namespace std;
-int main()
-{
-  gotoxy(100,4);
-  cout <<"*";
-  gotoxy(99,5);
-   cout << "/*\\";
-    gotoxy(98,6);
-   cout << "/0**\\";
-   gotoxy(97,7);
-   cout << "/**\\**\\";
-   gotoxy(102,7);
-   cout << "*";
-   gotoxy(98,7);
-   cout << "*";
-   
-   
-   gotoxy(99,8);
-   cout << "/*\\";
-   gotoxy(98,9);
-   cout << "/**0\\";
-   gotoxy(97,10);
-   cout << "/**/**\\";
-   gotoxy(96,11);
-   cout << "/**0****\\";
-   gotoxy(95,12);
-   cout << "/**/******\\";
+
   
 
    
