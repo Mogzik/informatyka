@@ -1,0 +1,43 @@
+#include <cstdlib>
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+ system("chcp 1250");
+ int a_maz;
+
+ printf("Podaj bok a trójkąta --> ");
+ cin>>a_maz;
+ cout<<endl;
+ 
+ printf("Bok trójkąta b = ");
+ printf(" cm");
+ cout<<endl;
+ 
+  printf("Pole trójkąta = ");
+  printf(" cm^2");
+ cout<<endl;
+ 
+ printf("Cosinus alfa = ");
+ cout<<endl;
+ 
+  printf("Sinus alfa = ");
+ cout<<endl;
+ 
+  printf("Tangens alfa = ");
+ cout<<endl;
+ 
+  printf("Kąt alfa = ");
+ cout<<endl;
+
+ 
+ 
+ 
+ 
+ system("PAUSE");
+ return EXIT_SUCCESS;
+}
