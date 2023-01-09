@@ -35,14 +35,10 @@ scanf("%lf",&a_maz);
   printf("Tangens alfa = %.3lf\n", tg_alfa_maz);
   
  double alfa_maz =atan(tg_alfa_maz)*180/PI_maz;
-  printf("Kąt alfa = %.3lf\n", alfa_maz, "stopni");
+  printf("Kąt alfa = %.3lf", alfa_maz);
+  cout<<" stopni";
 
-
- 
- 
- 
- 
- 
  return 0;
 }
+
 
