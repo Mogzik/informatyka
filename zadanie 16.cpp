@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
 int m, n, r;
-cout << "Podaj liczbe n: ";
+cout << "Podaj pierwsza liczbe n: ";
 cin >> n;
-cout << "Podaj liczbe m: ";
+cout << "Podaj druga liczbe mniejsza lub rowna pierwszej m: ";
 cin >> m;
 
 if (m > n)
@@ -24,7 +24,7 @@ while (m > 0)
     m = r;
 }
 
-cout << "NWD to: " << n << endl;
+cout << "NWD to: " <<r<< endl;
 
 return 0;
 }
