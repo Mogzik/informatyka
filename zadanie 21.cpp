@@ -21,7 +21,5 @@ cout << "Czy chcesz powtorzyc program? (J/N): ";
 cin >> again;
 } while (again == 'J' || again == 'j');
 
-kotlin
-Copy code
 return 0;
 }
