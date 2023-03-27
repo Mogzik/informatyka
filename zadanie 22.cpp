@@ -19,9 +19,7 @@ int main()
     } else {
         cout << "ZEGNAJ" << endl;
     }
-    
-    // Skrocona wersja if else:
-    // cout << ((pierwsza == 'j' && druga == 'k') ? "DZIEN DOBRY" : "ZEGNAJ") << endl;
+   
     
     return 0;
 }
