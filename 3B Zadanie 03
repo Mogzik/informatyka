@@ -1,1 +1,63 @@
+#include <iostream>
 
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    system("chcp 1250");
+    system("cls");
+    int a, b, c;
+
+    do
+    {
+        /* code */
+
+        cout << "Podaj wartości a, b, c rozdzielając je spacjami: ";
+        cin >> a;
+        cin >> b;
+        cin >> c;
+        cout << endl;
+
+        if (a == b || a == c || b == c || b == a || c == a || c == b)
+        {
+        }
+    } while (a == b || a == c || b == c || b == a || c == a || c == b);
+
+    int max = a;
+    int min = a;
+    int sum = a;           
+
+    if (b > max)
+    {
+        max = b;
+    }
+    if (c > max)
+    {
+        max = c;
+    }
+    if (b < min)
+    {
+        min = b;
+    }
+    if (c < min)
+    {
+        min = c;
+    }
+    if (a < max && a > min)
+    {
+        sum = a;
+    }
+    if (b < max && b > min)
+    {
+        sum = b;
+    }
+    if (c < max && c > min)
+    {
+        sum = c;
+    }
+    
+
+
+    cout << "Wprowadzone liczby to: " <<a<<" "<<b<<" "<<c<<endl;
+    cout << "Wpisuje liczby rosnąco: " <<min<<" "<<sum<<" "<<max<<endl;
+}
