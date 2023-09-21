@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    system("chcp 1250");
+    int n, k, i, s1, s2;
+
+	cout <<"Podaj N= ";
+	cin>>n;
+	
+	i=0;
+	s1=0;
+	s2=0;
+	powrot:
+	cout <<"Podaj K= ";
+	cin>>k;
+	
+	if(k%2==0)
+	{
+		s2=s2+k;
+	}else
+	{
+		s1=s1+k;
+	}
+	i++;
+	if(i !=n)
+	{
+		goto powrot;
+	}else
+	{
+		cout <<"Wartość S1= "<<s1<<endl;
+		cout <<"Wartość S2= "<<s2<<endl;
+	}
+	 return 0;
+}
