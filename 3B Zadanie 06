@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    system("cls");
+
+    int wynik = 1;
+    int n,k;
+
+    cout << "Podaj N= ";
+    cin >> n;
+    cout << "Podaj K= ";
+    cin >> k;
+
+   for (int i = 0; i<k; i++)
+   {
+   	wynik*=n;
+   }
+        cout << "Wynik= " << wynik << endl;
+        return 0;
+    }
