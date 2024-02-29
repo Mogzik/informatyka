@@ -1,0 +1,38 @@
+#include <cstdlib>
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{   
+    int tab[10];
+    int *schowek;
+    schowek=tab;
+  
+
+
+ for(int i=0; i<=9; i++)
+ {
+ cout<<"Podaj a["<<i<<"] element tablicy: ";
+ cin>>schowek[i];
+ }
+ 
+
+ for(int i=0; i<=9; i++,schowek++)
+ {      
+ cout<<("",*schowek);
+ cout<<"\n";
+ }
+
+*schowek=0;
+
+ cout<<"Odwrocno1a tablica:\n"; 
+ for (int i=10; i>=0; i--)
+ {
+ cout<<*schowek--;
+ cout<<"\n";
+ }
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
